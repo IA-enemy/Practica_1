@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: b292cadf83e96eb4598ab48f3960a45d
+  productGUID: 8605feb06172c3a4d870449c869f22ce
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Practica_1
+  productName: Proyecto_1
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -834,14 +834,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Practica_1
+  metroPackageName: Proyecto_1
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Practica_1
+  metroApplicationDescription: Proyecto_1
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -910,10 +910,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 4863a103-9c7f-4f79-9553-3b21cfa24982
+  cloudProjectId: 2a865592-9650-4c0b-8951-95751b935272
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Practica_1 2024-09-26_09-51-26
+  projectName: Proyecto_1
   organizationId: kabessita
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
