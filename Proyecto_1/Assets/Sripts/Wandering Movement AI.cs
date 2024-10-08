@@ -35,13 +35,8 @@ public class WanderingMovementAI : MonoBehaviour
     {
         //Esto de aqui genera un punto de aleatorio
         Vector3 randomDirection = Random.insideUnitSphere * destSearch; //insideUnitSphere genera un vector de radio 1 y lo multiplica por el rango de búsqueda
-        randomDirection += transform.position; 
+        randomDirection += transform.position;
 
-        //El navmeshit guarda la información de un punto en el navmesh
-        if (NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, destSearch, NavMesh.AllAreas)) // Funcion SamplePosition sirve para encontrar un punto válido en el NavMesh
-        {
-            destPoint = hit.position; 
-            agent.SetDestination(destPoint); 
-        }
+        agent.SetDestination(randomDirection);
     }
 }
