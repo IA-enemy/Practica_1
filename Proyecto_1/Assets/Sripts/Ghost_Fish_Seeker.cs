@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class FishSeeker : MonoBehaviour
+public class SeekerBehaviour : MonoBehaviour
 {
     private NavMeshAgent agent;
     private Transform Ghost;
@@ -12,7 +12,7 @@ public class FishSeeker : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        Ghost = FindObjectOfType<GhostWanderer>().transform;
+        Ghost = FindObjectOfType<GhostFish>().transform;
     }
 
     // Update is called once per frame

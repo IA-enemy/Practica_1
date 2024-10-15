@@ -11,7 +11,8 @@ public class FlockManager : MonoBehaviour
     public static FlockManager FM; 
     
     // The fish prefab to instantiate for each fish in the flock
-    public GameObject fishPrefab; 
+    public GameObject fishPrefab;
+    public GameObject leaderPrefab;
     
     // Number of fish in the flock
     public int numFish = 20; 
@@ -20,8 +21,13 @@ public class FlockManager : MonoBehaviour
     public GameObject[] allFish; 
     
     // Defines the 3D space within which the fish can swim
-    public Vector3 swimLimits = new Vector3(5, 5, 5); 
+    public Vector3 swimLimits = new Vector3(10, 10, 10); 
     
+    // leader parameters
+    public int LeaderNum = 3;
+    public GameObject[] allLeader;
+    public float leaderSpeed = 10;
+
     // Randomly selected goal position for fish to move towards
     public Vector3 goalPos = Vector3.zero;
 
@@ -49,7 +55,7 @@ public class FlockManager : MonoBehaviour
     {
         // Initialize the array to hold all the fish
         allFish = new GameObject[numFish];
-
+        allLeader = new GameObject[LeaderNum];
         // Loop to create and place each fish randomly within the swim limits
         for (int i = 0; i < numFish; i++)
         {
@@ -63,6 +69,14 @@ public class FlockManager : MonoBehaviour
             allFish[i] = Instantiate(fishPrefab, pos, Quaternion.identity);
         }
 
+        for (int i = 0; i < LeaderNum; i++)
+        {
+            Vector3 pos= this.transform.position + new Vector3(
+                Random.Range(-swimLimits.x, swimLimits.x),
+                Random.Range(-swimLimits.y, swimLimits.y),
+                Random.Range(-swimLimits.z, swimLimits.z));
+            allLeader[i] = Instantiate(leaderPrefab, pos, Quaternion.identity);
+        }
         // Set the static reference to this instance of FlockManager
         FM = this;
         
@@ -83,5 +97,18 @@ public class FlockManager : MonoBehaviour
                 Random.Range(-swimLimits.y, swimLimits.y),  
                 Random.Range(-swimLimits.z, swimLimits.z));
         }
+        //hacemos que se muevan de manera independiente
+        for(int i = 0; i < LeaderNum; i++)
+        { 
+                Vector3 newPos = this.transform.position + new Vector3
+                    (
+                        Random.Range(-swimLimits.x, swimLimits.x),
+                        Random.Range(-swimLimits.y, swimLimits.y),
+                        Random.Range(-swimLimits.z, swimLimits.z)
+                    );
+               
+
+            }
+        
     }
 }

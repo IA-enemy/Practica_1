@@ -8,14 +8,26 @@ public class Flock : MonoBehaviour
     float speed;
     
     // Boolean flag to check if the fish needs to turn (when hitting boundaries)
-    bool turning = false; 
+    bool turning = false;
 
+    // comprovar si es lider
+    public bool isleader = false;
+    // posicion nueva para lideres
+    public Vector3 newPos;
     // Start is called before the first frame update
     // Initializes the fish with a random speed within the bounds set by FlockManager
     void Start()
     {
         // Set initial speed randomly between minimum and maximum speed set in the FlockManager
-        speed = Random.Range(FlockManager.FM.minSpeed, FlockManager.FM.maxSpeed);
+        if(isleader)//si es lider tendran su propia velocidad si no velocidad elegida en el flock manager
+        {
+            speed = FlockManager.FM.leaderSpeed;
+        }
+        else
+        {
+            speed = Random.Range(FlockManager.FM.minSpeed, FlockManager.FM.maxSpeed);
+        }
+            
     }
 
     // Update is called once per frame
@@ -49,6 +61,20 @@ public class Flock : MonoBehaviour
         }
         else
         {
+            if(!isleader)
+            {
+                GameObject closestLeader = GetClosestLeader();
+
+                newPos = closestLeader.transform.position;
+            }
+            Vector3 direction = newPos - transform.position;
+
+            if (direction != Vector3.zero)
+            {
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), FlockManager.FM.rotationSpeed * Time.deltaTime);
+            }
+
+            this.transform.Translate(0, 0, speed * Time.deltaTime);
             // Randomly adjust the fish's speed occasionally (10% chance per frame)
             if (Random.Range(0, 100) < 10)
             {
@@ -138,5 +164,21 @@ public class Flock : MonoBehaviour
                     FlockManager.FM.rotationSpeed * Time.deltaTime);
             }
         }
+    }
+    GameObject GetClosestLeader()
+    {
+        GameObject closestLeader = null;
+        float closestDistance = Mathf.Infinity;
+        foreach (GameObject leader in FlockManager.FM.allLeader)
+        {
+            float distance = Vector3.Distance(transform.position, leader.transform.position);
+            if(distance < closestDistance)
+            {
+                closestDistance = distance;
+                closestLeader = leader;
+            }
+        }
+        return closestLeader;
+
     }
 }

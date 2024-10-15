@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\sripts\\ghost_seeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\sripts\\ghost_seeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\scripts\\flock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\sripts\\ghost_wanderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\sripts\\ghost_wanderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\tutorialinfo\\scripts\\clicktomove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\clicktomove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\tutorialinfo\\scripts\\enemybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\enemybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\scripts\\flockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ghost_seeker.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Sripts\\Ghost_seeker.cs",
-              "RelativeDocumentMoniker": "Assets\\Sripts\\Ghost_seeker.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Sripts\\Ghost_seeker.cs",
-              "RelativeToolTip": "Assets\\Sripts\\Ghost_seeker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T15:34:07.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ghost_wanderer.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Sripts\\ghost_wanderer.cs",
-              "RelativeDocumentMoniker": "Assets\\Sripts\\ghost_wanderer.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Sripts\\ghost_wanderer.cs",
-              "RelativeToolTip": "Assets\\Sripts\\ghost_wanderer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Title": "FlockManager.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\scripts\\FlockManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\FlockManager.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\scripts\\FlockManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\FlockManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAtwBcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T15:21:43.609Z",
+              "WhenOpened": "2024-10-15T17:30:13.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\TutorialInfo\\Scripts\\EnemyBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\EnemyBehaviour.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\TutorialInfo\\Scripts\\EnemyBehaviour.cs",
-              "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\EnemyBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Flock.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\scripts\\Flock.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Flock.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\scripts\\Flock.cs",
+              "RelativeToolTip": "Assets\\scripts\\Flock.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAFUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T10:02:16.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClickToMove.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\TutorialInfo\\Scripts\\ClickToMove.cs",
-              "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\ClickToMove.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\TutorialInfo\\Scripts\\ClickToMove.cs",
-              "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\ClickToMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:07:20.14Z",
+              "WhenOpened": "2024-10-15T17:29:16.489Z",
               "EditorCaption": ""
             }
           ]
