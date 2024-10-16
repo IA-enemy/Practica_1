@@ -11,23 +11,15 @@ public class Flock : MonoBehaviour
     bool turning = false;
 
     // comprovar si es lider
-    public bool isleader = false;
+    
     // posicion nueva para lideres
-    public Vector3 newPos;
+    public Vector3 leaderTarget;
     // Start is called before the first frame update
     // Initializes the fish with a random speed within the bounds set by FlockManager
     void Start()
     {
-        // Set initial speed randomly between minimum and maximum speed set in the FlockManager
-        if(isleader)//si es lider tendran su propia velocidad si no velocidad elegida en el flock manager
-        {
-            speed = FlockManager.FM.leaderSpeed;
-        }
-        else
-        {
-            speed = Random.Range(FlockManager.FM.minSpeed, FlockManager.FM.maxSpeed);
-        }
-            
+        // Set initial speed randomly between minimum and maximum speed set in the FlockManager      
+            speed = Random.Range(FlockManager.FM.minSpeed, FlockManager.FM.maxSpeed);       
     }
 
     // Update is called once per frame
@@ -35,7 +27,7 @@ public class Flock : MonoBehaviour
     void Update()
     {
         // Define the swimming area boundary (based on the swimLimits set in FlockManager)
-        Bounds b = new Bounds(FlockManager.FM.transform.position, FlockManager.FM.swimLimits * 2);
+        Bounds b = new Bounds(FlockManager.FM.transform.position, new Vector3(100,100,100));
 
         // If the fish is outside the boundary, set turning to true to make it turn back
         if (!b.Contains(transform.position))
@@ -60,36 +52,25 @@ public class Flock : MonoBehaviour
                 FlockManager.FM.rotationSpeed * Time.deltaTime);
         }
         else
-        {
-            if(!isleader)
-            {
-                GameObject closestLeader = GetClosestLeader();
-
-                newPos = closestLeader.transform.position;
-            }
-            Vector3 direction = newPos - transform.position;
-
-            if (direction != Vector3.zero)
-            {
-                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), FlockManager.FM.rotationSpeed * Time.deltaTime);
-            }
-
-            this.transform.Translate(0, 0, speed * Time.deltaTime);
+        {            
             // Randomly adjust the fish's speed occasionally (10% chance per frame)
             if (Random.Range(0, 100) < 10)
             {
                 speed = Random.Range(FlockManager.FM.minSpeed, FlockManager.FM.maxSpeed);
             }
-
-            // Randomly apply flocking rules occasionally (10% chance per frame)
             if (Random.Range(0, 100) < 10)
             {
                 ApplyFlockingRules();
             }
+            FindNearestLeader();
+            Vector3 leaderDirection = (leaderTarget - transform.position).normalized;
+            transform.Translate(leaderDirection * speed * Time.deltaTime);
+          
+            
         }
 
         // Move the fish forward based on its current speed
-        this.transform.Translate(0, 0, speed * Time.deltaTime);
+        
     }
 
     // ApplyFlockingRules() is responsible for implementing the core flocking behaviors:
@@ -165,20 +146,20 @@ public class Flock : MonoBehaviour
             }
         }
     }
-    GameObject GetClosestLeader()
+    void FindNearestLeader()
     {
-        GameObject closestLeader = null;
         float closestDistance = Mathf.Infinity;
-        foreach (GameObject leader in FlockManager.FM.allLeader)
+        Vector3[] leaderPositions = FlockManager.FM.leaderPos;
+
+        // Recorre todas las posiciones de los líderes y encuentra la más cercana
+        for (int i = 0; i < leaderPositions.Length; i++)
         {
-            float distance = Vector3.Distance(transform.position, leader.transform.position);
-            if(distance < closestDistance)
+            float distance = Vector3.Distance(transform.position, leaderPositions[i]);
+            if (distance < closestDistance)
             {
                 closestDistance = distance;
-                closestLeader = leader;
+                leaderTarget = leaderPositions[i];
             }
         }
-        return closestLeader;
-
     }
 }
