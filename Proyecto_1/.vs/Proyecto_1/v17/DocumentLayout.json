@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\scripts\\flock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\lab3\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab3\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\scripts\\flockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\lab3\\zombievision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab3\\zombievision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\sripts\\wandering movement ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\sripts\\wandering movement ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FlockManager.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\scripts\\FlockManager.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\FlockManager.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\scripts\\FlockManager.cs",
-              "RelativeToolTip": "Assets\\scripts\\FlockManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAtwBcAAAATAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab3\\StateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Lab3\\StateMachine.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab3\\StateMachine.cs",
+              "RelativeToolTip": "Assets\\Lab3\\StateMachine.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAwHMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:30:13.855Z",
+              "WhenOpened": "2024-10-23T18:27:11.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Flock.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\scripts\\Flock.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Flock.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\scripts\\Flock.cs",
-              "RelativeToolTip": "Assets\\scripts\\Flock.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAFUAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Wandering Movement AI.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Sripts\\Wandering Movement AI.cs",
+              "RelativeDocumentMoniker": "Assets\\Sripts\\Wandering Movement AI.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Sripts\\Wandering Movement AI.cs",
+              "RelativeToolTip": "Assets\\Sripts\\Wandering Movement AI.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:29:16.489Z",
+              "WhenOpened": "2024-10-23T18:26:21.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ZombieVision.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab3\\ZombieVision.cs",
+              "RelativeDocumentMoniker": "Assets\\Lab3\\ZombieVision.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab3\\ZombieVision.cs",
+              "RelativeToolTip": "Assets\\Lab3\\ZombieVision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:25:48.489Z",
               "EditorCaption": ""
             }
           ]
