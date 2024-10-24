@@ -70,19 +70,14 @@ public class StateMachine : MonoBehaviour
     }
     bool HumanVisible()
     {
-        //calculamos la distancia entre el zombie y el humano
         Vector3 directionHuman = human.position - transform.position;
         float distanceHuman = directionHuman.magnitude;
-        //comprobamos si el humano esta dentro del rango de deteccion
         if (distanceHuman < rangedetection)
         {
-            //calculamos el angulo entre el zombie y el humano
             float angle = Vector3.Angle(directionHuman, transform.forward);
-            //comprobamos si el angulo esta dentro del campo de vision
             if (angle < AngleView * 0.5)
             {
                 RaycastHit hit;
-                //usamos el raycast para ver si hay obstaculos entre el zombie y el humano
                 if (Physics.Raycast(transform.position + Vector3.up, directionHuman.normalized, out hit, rangedetection))
                 {
                     if (hit.transform == human)
@@ -98,16 +93,17 @@ public class StateMachine : MonoBehaviour
 
     void AlertNearbyZombies()
     {
-        // creamos una esfera para detectar objetos cercanos
+        // Crear una esfera para detectar otros zombies cercanos
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, alertRadius);
 
         foreach (Collider hitCollider in hitColliders)
         {
-            // Verificamos si los objetos cercanos son zombies
-            if (hitCollider.gameObject != this.gameObject)
+            // Verificar si los objetos detectados son otros zombies
+            StateMachine otherZombie = hitCollider.GetComponent<StateMachine>();
+
+            if (otherZombie != null && otherZombie != this) // No queremos avisarnos a nosotros mismos
             {
-                // Enviamos un mensaje para que los zombies cercanos reciban la funcion BecomeAlerted
-                hitCollider.gameObject.BroadcastMessage("BecomeAlerted", SendMessageOptions.DontRequireReceiver);
+                otherZombie.BecomeAlerted(); // Llamar a la función para alertar al otro zombie
             }
         }
     }
