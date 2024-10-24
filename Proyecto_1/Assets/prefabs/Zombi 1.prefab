@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4870219533947454351}
-  - component: {fileID: 3612192840674894303}
+  - component: {fileID: 6465802956416052212}
   m_Layer: 0
   m_Name: Zombi 1
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   - {fileID: 6599361470276176638}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3612192840674894303
+--- !u!114 &6465802956416052212
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,11 +42,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3709369843673022595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53f63757818823a469e6070f2773b5d2, type: 3}
+  m_Script: {fileID: 11500000, guid: eb35992f186fb1e46a94e40548ec1ca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  detectionRadius: 10
+  destDistance: 1.5
+  destSearch: 10
+  human: {fileID: 0}
+  AngleView: 110
+  rangedetection: 15
+  alertRadius: 20
 --- !u!1 &7508094907294956859
 GameObject:
   m_ObjectHideFlags: 0
