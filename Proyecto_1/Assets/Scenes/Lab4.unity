@@ -684,6 +684,7 @@ GameObject:
   - component: {fileID: 1211153989}
   - component: {fileID: 1211153988}
   - component: {fileID: 1211153990}
+  - component: {fileID: 1211153991}
   m_Layer: 0
   m_Name: Robber
   m_TagString: Untagged
@@ -752,7 +753,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211153986}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9c53422bffb42a4da3990ff6e695e46, type: 3}
   m_Name: 
@@ -761,6 +762,22 @@ MonoBehaviour:
   isDetected: 0
   inDistance: 0
   distanceToChase: 1
+--- !u!114 &1211153991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211153986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf8dc13c3117584588031093407e7ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  victimFound: 0
+  destDistance: 1.5
+  destSearch: 10
+  victimDistance: 10
 --- !u!1 &1443819830
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,7 +962,7 @@ GameObject:
   - component: {fileID: 1798953690}
   m_Layer: 0
   m_Name: Anciana
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
