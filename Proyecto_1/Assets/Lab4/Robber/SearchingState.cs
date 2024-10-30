@@ -11,8 +11,8 @@ public class SearchingState : MonoBehaviour
     NavMeshAgent agent;
     private Transform player;
 
-    public float destDistance = 1.5f; // Distancia mínima para considerar que se a llegado el objetivo
-    public float destSearch = 10f; // Rango de búsqueda aleatoria
+    public float destDistance = 1.5f; // Distancia mï¿½nima para considerar que se a llegado el objetivo
+    public float destSearch = 10f; // Rango de bï¿½squeda aleatoria
 
     public float victimDistance = 10f; // Distancia a la que se detecta al jugador
 

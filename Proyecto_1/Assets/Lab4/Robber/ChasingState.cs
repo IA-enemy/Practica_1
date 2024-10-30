@@ -5,11 +5,11 @@ using UnityEngine.AI;
 
 public class ChasingState : MonoBehaviour
 {
-    public bool isChasing = false; //Si el ladrón está persiguiendo al jugador
-    public bool isDetected = false; //Si el jugador ha detectado al ladrón
-    public bool inDistance = false; //Si el ladron está a una distancia determinada del jugador
+    public bool isChasing = false; //Si el ladrï¿½n estï¿½ persiguiendo al jugador
+    public bool isDetected = false; //Si el jugador ha detectado al ladrï¿½n
+    public bool inDistance = false; //Si el ladron estï¿½ a una distancia determinada del jugador
 
-    public float distanceToChase = 5.0f; //Distancia a la que el ladrón persigue al jugador
+    public float distanceToChase = 5.0f; //Distancia a la que el ladrï¿½n persigue al jugador
 
     private NavMeshAgent agent;
     private Transform player;
@@ -46,6 +46,11 @@ public class ChasingState : MonoBehaviour
 
     void Borrow()
     {
-        //Quitas algo al jugador y este te detecta/ Momento para cambiar a hidding
+        //Quitas algo al jugador y este te detecta
+        Bolsito abuela = GameObject.FindGameObjectWithTag("Abuela").GetComponent<Bolsito>();
+        if (abuela != null)
+        {
+            abuela.StartBeingRobbed(); //Enviar a Abuela que le estan empezando a robar
+        }
     }
 }
