@@ -26,18 +26,20 @@ public class Bolsito : MonoBehaviour
         {
             monedicas -= 1;
             Ladroon();
+            mehanrobado = false;
         }
-        else
-        {
-            if (ladronHideState != null && ladronHideState.isHidden)
-            {
-                mehanrobado = false; //Si el ladron esta escondido ya no le roban
-            }
-        }
+        //else
+        //{
+        //    if (ladronHideState != null && ladronHideState.isDetected)
+        //    {
+        //        mehanrobado = false; //Si el ladron esta escondido ya no le roban
+        //    }
+        //}
     }
 
     void Ladroon()
     {
+        
         if (ladronHideState != null && !ladronHideState.isHidden)
         {
             agent.SetDestination(GameObject.Find("Ladron").transform.position);//Comprovar que el ladron este escondido

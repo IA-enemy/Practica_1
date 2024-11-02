@@ -10,7 +10,7 @@ public class FSM : MonoBehaviour
 
    
    
-    private WaitForSeconds wait = new WaitForSeconds(0.05f); // == 1/20
+    private WaitForSeconds wait = new WaitForSeconds(0.005f); // == 1/20
     delegate IEnumerator State();
     private State currentState;
 
