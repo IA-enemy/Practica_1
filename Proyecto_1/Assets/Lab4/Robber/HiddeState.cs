@@ -7,15 +7,25 @@ public class HideState : MonoBehaviour
 {
     public bool isHidden = false; //Si el ladrón está escondido
     public bool isDetected = false; //Si el ladrón ha sido detectado
-
+    FSM state;
     private NavMeshAgent agent;
     public List<GameObject> hideSpots = new List<GameObject>();
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        state = GetComponent<FSM>();
+    }
+    public void EnterState()
+    {
+        isDetected = true; // Comienza la búsqueda de un lugar para esconderse
     }
 
+    public void ExitState()
+    {
+        agent.ResetPath();
+        isHidden = false; // Reinicia el estado de escondite
+    }
     void Update()
     {
         if (isDetected && !isHidden)

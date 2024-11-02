@@ -19,9 +19,20 @@ public class SearchingState : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Abuela").transform;
     }
 
+    public void EnterState()
+    {
+        victimFound = false; // Reinicia la detección de la víctima
+        Patrol();
+    }
+
+    public void ExitState()
+    {
+        // Detiene cualquier acción de movimiento o lógica
+        agent.ResetPath();
+    }
     void Update()
     {
         if (!victimFound)

@@ -17,17 +17,22 @@ public class ChasingState : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Abuela").transform;
+    }
+    public void EnterState()
+    {
+        isChasing = true; //comienza a perseguir al jugador
     }
 
+    public void ExitState()
+    {
+        isChasing = false;//termina la persecucion y reinicia el pathing
+        agent.ResetPath();
+    }
     void Update()
     {
-        if (!isDetected)
+        if (!isDetected && isChasing)
         {
-            if (!isChasing)
-            {
-                isChasing = true;
-            }
 
             Chase();
         }

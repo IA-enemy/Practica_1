@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\lab3\\zombievision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab3\\zombievision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\lab4\\robber\\chasingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab4\\robber\\chasingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\sripts\\wandering movement ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\sripts\\wandering movement ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\lab4\\robber\\hiddestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab4\\robber\\hiddestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\lab4\\robber\\fsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab4\\robber\\fsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\lab4\\robber\\robermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab4\\robber\\robermachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\lab4\\robber\\actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab4\\robber\\actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\lab4\\robber\\searchingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab4\\robber\\searchingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\lab4\\awela\\bolsito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab4\\awela\\bolsito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Wandering Movement AI.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Sripts\\Wandering Movement AI.cs",
-              "RelativeDocumentMoniker": "Assets\\Sripts\\Wandering Movement AI.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Sripts\\Wandering Movement AI.cs",
-              "RelativeToolTip": "Assets\\Sripts\\Wandering Movement AI.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Actions.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\Actions.cs",
+              "RelativeDocumentMoniker": "Assets\\Lab4\\Robber\\Actions.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\Actions.cs",
+              "RelativeToolTip": "Assets\\Lab4\\Robber\\Actions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:26:21.964Z",
+              "WhenOpened": "2024-11-02T16:08:57.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FSM.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\FSM.cs",
+              "RelativeDocumentMoniker": "Assets\\Lab4\\Robber\\FSM.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\FSM.cs",
+              "RelativeToolTip": "Assets\\Lab4\\Robber\\FSM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:06:13.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bolsito.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Awela\\Bolsito.cs",
+              "RelativeDocumentMoniker": "Assets\\Lab4\\Awela\\Bolsito.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Awela\\Bolsito.cs",
+              "RelativeToolTip": "Assets\\Lab4\\Awela\\Bolsito.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAawDQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:26:08.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchingState.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\SearchingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Lab4\\Robber\\SearchingState.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\SearchingState.cs",
+              "RelativeToolTip": "Assets\\Lab4\\Robber\\SearchingState.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:51:36.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HiddeState.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\HiddeState.cs",
+              "RelativeDocumentMoniker": "Assets\\Lab4\\Robber\\HiddeState.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\HiddeState.cs",
+              "RelativeToolTip": "Assets\\Lab4\\Robber\\HiddeState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwFAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:51:26.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ZombieVision.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab3\\ZombieVision.cs",
-              "RelativeDocumentMoniker": "Assets\\Lab3\\ZombieVision.cs",
-              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab3\\ZombieVision.cs",
-              "RelativeToolTip": "Assets\\Lab3\\ZombieVision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ChasingState.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\ChasingState.cs",
+              "RelativeDocumentMoniker": "Assets\\Lab4\\Robber\\ChasingState.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\ChasingState.cs",
+              "RelativeToolTip": "Assets\\Lab4\\Robber\\ChasingState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:25:48.489Z",
+              "WhenOpened": "2024-11-01T11:51:18.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoberMachine.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\RoberMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Lab4\\Robber\\RoberMachine.cs",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\Lab4\\Robber\\RoberMachine.cs",
+              "RelativeToolTip": "Assets\\Lab4\\Robber\\RoberMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:33:15.276Z",
               "EditorCaption": ""
             }
           ]
