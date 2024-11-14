@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\behaviorbricks\\conditions\\system\\perception\\istargetclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\behaviorbricks\\conditions\\system\\basic\\checkbool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\behaviorbricks\\conditions\\system\\basic\\checkbool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\behaviorbricks\\conditions\\system\\basic\\checkbool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\behaviorbricks\\actions\\system\\navigation\\movetogameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\behaviorbricks\\actions\\system\\navigation\\movetogameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\behaviorbricks\\actions\\system\\navigation\\movetogameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Assets\\BehaviorBricks\\Conditions\\System\\Basic\\CheckBool.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:28:53.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T16:28:53.76Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Assets\\BehaviorBricks\\Actions\\System\\Navigation\\MoveToGameObject.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAgwAAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:17:36.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T16:17:36.495Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "Assets\\BehaviorBricks\\Conditions\\System\\Perception\\IsTargetClose.cs",
               "ToolTip": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\BehaviorBricks\\Conditions\\System\\Perception\\IsTargetClose.cs",
               "RelativeToolTip": "Assets\\BehaviorBricks\\Conditions\\System\\Perception\\IsTargetClose.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T16:17:04.696Z",
               "EditorCaption": ""
