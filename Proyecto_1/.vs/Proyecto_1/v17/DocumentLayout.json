@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\behaviorbricks\\conditions\\system\\basic\\checkbool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\behaviorbricks\\conditions\\system\\basic\\checkbool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\behaviorbricks\\actions\\system\\navigation\\movetogameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\behaviorbricks\\actions\\system\\navigation\\movetogameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\behaviorbricks\\conditions\\system\\basic\\checkbool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\behaviorbricks\\conditions\\system\\basic\\checkbool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\behaviorbricks\\conditions\\system\\perception\\istargetclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\behaviorbricks\\conditions\\system\\perception\\istargetclose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|c:\\users\\usuario\\desktop\\practica_1\\proyecto_1\\assets\\lab 5\\scripts\\tosteal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\assets\\lab 5\\scripts\\tosteal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5D93605-753A-C199-6B07-96C98AC5AAFA}|Assembly-CSharp.csproj|solutionrelative:assets\\lab 5\\scripts\\tosteal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "Assets\\Lab 5\\Scripts\\ToSteal.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:31:19.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T11:31:19.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CheckBool.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\BehaviorBricks\\Conditions\\System\\Basic\\CheckBool.cs",
               "RelativeDocumentMoniker": "Assets\\BehaviorBricks\\Conditions\\System\\Basic\\CheckBool.cs",
@@ -60,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MoveToGameObject.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\Practica_1\\Proyecto_1\\Assets\\BehaviorBricks\\Actions\\System\\Navigation\\MoveToGameObject.cs",
               "RelativeDocumentMoniker": "Assets\\BehaviorBricks\\Actions\\System\\Navigation\\MoveToGameObject.cs",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "Assets\\BehaviorBricks\\Conditions\\System\\Perception\\IsTargetClose.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:17:04.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T16:17:04.696Z"
             },
             {
               "$type": "Document",
